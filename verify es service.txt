@@ -1,0 +1,2 @@
+kubectl port-forward es-cluster-0 9200:9200
+curl http://localhost:9200/_cluster/health/?pretty
